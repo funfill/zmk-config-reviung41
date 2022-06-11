@@ -38,9 +38,9 @@
 // |    |  -  |  =  |  [  |  ]  |  \  |   |  <  |  >  |  ,  |  ?  |  `  |  ~  |
 //                       |     |     | RET | ADJ |     |
                         bindings = <
-   &kp ESC &kp EXCL       &kp AT      &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET      &kp AMPS          &kp N8     &kp LPAR       &kp RPAR  &kp DEL
-   &trans  &kp UNDERSCORE &kp KP_PLUS &kp LBRC  &kp RBRC  &kp PIPE        &kp DOT        &kp COLON         &kp COMMA  &kp SEMI       &kp APOS  &kp BSLH
-   &trans  &kp MINUS      &kp EQUAL   &kp LBKT  &kp RBKT  &kp BSLH        &kp LESS THAN  &kp GREATER THAN  &kp SQT    &kp QMARK      &kp GRAVE &kp TILDE
+   &kp ESC &kp EXCL       &kp AT      &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET   &kp AMPS     &kp N8     &kp LPAR      &kp RPAR    &kp DEL
+   &trans  &kp UNDERSCORE &kp KP_PLUS &kp LBRC  &kp RBRC  &kp PIPE        &kp DOT     &kp COLON    &kp SEMI   &kp APOS      &kp DQT     &kp BSLH
+   &trans  &kp MINUS      &kp EQUAL   &kp LBKT  &kp RBKT  &kp BSLH        &kp LT      &kp GT       &kp COMMA  &kp QMARK   &kp GRAVE   &kp TILDE
                                           &trans      &trans       &trans        &trans    &trans
                         >;
                         sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
