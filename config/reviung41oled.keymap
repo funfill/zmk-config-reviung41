@@ -53,9 +53,9 @@
 // |    |   F11 |   F12 | COPY | PASTE|  CUT  |   |  1  |  2  |  3  |  ,  |     |       |
 //                       |     | ADJ  | 0 |  .  |  \  |
                         bindings = <
-   &kp ESC &kp F1   &kp F2   &kp F3      &kp F4     &kp F5         &kp N7    &kp N8    &kp N9     &kp PLUS       &kp MINUS    &kp BKSP
-   &trans  &kp F6   &kp F7   &kp F8      &kp F9     &kp F10        &kp N4    &kp N5    &kp N6     &kp MULTIPLY   &kp DIVIDE   &EQUAL
-   &trans  &kp F11  &kp F12  &kp K_COPY  &kp K_PASTE   &kp K_CUT   &kp N1    &kp N2    &kp N3     &kp COMMA      &none        &none
+   &kp ESC &kp F1   &kp F2   &kp F3      &kp F4     &kp F5         &kp N7    &kp N8    &kp N9     &kp PLUS          &kp MINUS      &kp BKSP
+   &trans  &kp F6   &kp F7   &kp F8      &kp F9     &kp F10        &kp N4    &kp N5    &kp N6     &kp KP_MULTIPLY   &kp KP_DIVIDE  &kp KP_EQUAL
+   &trans  &kp F11  &kp F12  &kp K_COPY  &kp K_PASTE   &kp K_CUT   &kp N1    &kp N2    &kp N3     &kp COMMA         &none          &none
                                 &trans   &trans     &kp N0      &kp DOT     &kp BSLH
                         >;
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
